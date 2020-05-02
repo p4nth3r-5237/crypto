@@ -1,4 +1,5 @@
 # Encryption  e(x) = (x+k) mod 26
+# character+key in integer add it and take modulus and then make character
 
 plain_text=input("Enter Plain Text: ")
 shift=int(input("Enter shift key: "))
