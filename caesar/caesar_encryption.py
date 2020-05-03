@@ -3,7 +3,7 @@
 
 plain_text=input("Enter Plain Text: ")
 print("Shift by\t\t","Encrypted data")
-for shift in range(27):
+for shift in range(1,26):
     num=97
     print("---------------------------\n",shift,":\t\t", end="")
     for i  in plain_text:
